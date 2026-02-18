@@ -1,0 +1,24 @@
+CREATE EXTERNAL LOCATION 
+
+
+
+
+https://trainingsa12345.blob.core.windows.net/trainingcontainer
+
+
+abfss://trainingcontainer@trainingsa12345.dfs.core.windows.net/
+
+Azure Blob File System secure
+
+
+Blob--> not folder
+datalake --> folder%fs  --> to access databricks file system 
+%sh --> Linix based natic command
+%sql --> to switch from default language to SQL
+%python --> to switch from default language to python
+%scala --> to switch from default language to scala
+%r --> to switch from default language to R
+%run --> which we use for modulatiry
+
+
+blob,data lake, file, queue
